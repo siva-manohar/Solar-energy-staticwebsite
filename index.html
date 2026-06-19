@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SolarCore — Powering Tomorrow</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">☀ SOLARCORE</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#stats">Impact</a></li>
+      <li><a href="#solutions">Solutions</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get a Quote</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="sun-wrapper">
+      <div class="sun">
+        <div class="sun-core"></div>
+        <div class="rays">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="glow-ring"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Clean Energy Infrastructure</p>
+      <h1 class="hero-title">The sun delivers<br /><em>93 million miles</em><br />to your rooftop.</h1>
+      <p class="hero-sub">We make sure none of it goes to waste. SolarCore designs, installs, and maintains high-efficiency solar systems for homes, businesses, and utilities.</p>
+      <div class="hero-actions">
+        <a href="#solutions" class="btn-primary">Explore Solutions</a>
+        <a href="#stats" class="btn-ghost">See Our Impact</a>
+      </div>
+    </div>
+
+    <div class="hero-ticker">
+      <span class="ticker-label">kWh generated today</span>
+      <span class="ticker-value" id="ticker">0</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-eyebrow">Who We Are</p>
+          <h2 class="section-title">Built by engineers.<br />Driven by the sun.</h2>
+          <p>SolarCore is an end-to-end solar energy company founded by power engineers and climate technologists. We don't just install panels — we design intelligent energy systems tailored to your consumption patterns, grid conditions, and long-term goals.</p>
+          <p>From residential rooftops to utility-scale solar farms, we bring precision, durability, and performance to every project.</p>
+        </div>
+        <div class="about-features">
+          <div class="feature-card">
+            <span class="feature-icon">⚡</span>
+            <h3>High-Efficiency Panels</h3>
+            <p>Monocrystalline silicon cells rated up to 23% efficiency — the highest available for residential use.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">🔋</span>
+            <h3>Battery Storage</h3>
+            <p>Pair your solar system with lithium-ion storage to power through the night and grid outages.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">📡</span>
+            <h3>Smart Monitoring</h3>
+            <p>Real-time dashboards track generation, usage, and savings from your phone or desktop.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">🌍</span>
+            <h3>Carbon Offset Reporting</h3>
+            <p>Automated monthly reports show your CO₂ offset and equivalent trees planted.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <p class="section-eyebrow center">Our Impact</p>
+      <h2 class="section-title center">Numbers that matter</h2>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">48 GW</span>
+          <span class="stat-label">Total clean energy generated</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">120K+</span>
+          <span class="stat-label">Installations worldwide</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">34M t</span>
+          <span class="stat-label">CO₂ emissions avoided</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">98.4%</span>
+          <span class="stat-label">Customer satisfaction rate</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS -->
+  <section class="solutions" id="solutions">
+    <div class="container">
+      <p class="section-eyebrow">What We Offer</p>
+      <h2 class="section-title">Solar for every scale</h2>
+      <div class="solutions-grid">
+        <div class="solution-card">
+          <div class="solution-tag">Residential</div>
+          <h3>Home Solar Systems</h3>
+          <p>Custom-sized rooftop installations for single-family homes and apartments. Reduce your electricity bill by up to 90%.</p>
+          <ul>
+            <li>Free site assessment</li>
+            <li>5–25 panel configurations</li>
+            <li>25-year performance warranty</li>
+            <li>Net metering support</li>
+          </ul>
+          <a href="#contact" class="card-link">Get a home quote →</a>
+        </div>
+        <div class="solution-card featured">
+          <div class="solution-tag">Commercial</div>
+          <h3>Business & Industrial</h3>
+          <p>Large-scale rooftop and ground-mount systems for warehouses, offices, and manufacturing plants.</p>
+          <ul>
+            <li>Energy audit included</li>
+            <li>Power purchase agreements</li>
+            <li>3-phase system support</li>
+            <li>Demand charge reduction</li>
+          </ul>
+          <a href="#contact" class="card-link">Explore commercial →</a>
+        </div>
+        <div class="solution-card">
+          <div class="solution-tag">Utility</div>
+          <h3>Solar Farms & Microgrids</h3>
+          <p>Utility-scale projects from 1 MW to 500 MW. We manage permitting, grid interconnection, and ongoing O&M.</p>
+          <ul>
+            <li>EPC turnkey delivery</li>
+            <li>SCADA integration</li>
+            <li>Grid compliance support</li>
+            <li>Long-term O&M contracts</li>
+          </ul>
+          <a href="#contact" class="card-link">Talk to our team →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process">
+    <div class="container">
+      <p class="section-eyebrow center">How It Works</p>
+      <h2 class="section-title center">From first call to first watt</h2>
+      <div class="process-steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h4>Site Survey</h4>
+          <p>We assess your roof, orientation, shading, and energy usage to design the optimal system.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h4>Custom Design</h4>
+          <p>Our engineers produce a detailed layout with projected output and ROI over 25 years.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h4>Installation</h4>
+          <p>Certified technicians install your system in 1–3 days with zero disruption.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h4>Go Live</h4>
+          <p>Grid connection, monitoring setup, and you're generating clean energy from day one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <p class="section-eyebrow">Get Started</p>
+          <h2 class="section-title">Ready to switch<br />to solar?</h2>
+          <p>Fill out this form and our team will reach out within 24 hours with a free consultation and preliminary quote.</p>
+          <div class="contact-info">
+            <p>📧 hello@solarcore.energy</p>
+            <p>📞 +1 (800) 765-2739</p>
+            <p>📍 Austin, TX · Phoenix, AZ · Mumbai, IN</p>
+          </div>
+        </div>
+        <div class="contact-form">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Jane Smith" />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="jane@example.com" />
+          </div>
+          <div class="form-group">
+            <label>Project Type</label>
+            <select>
+              <option>Residential</option>
+              <option>Commercial</option>
+              <option>Utility / Solar Farm</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="4" placeholder="Tell us about your energy needs..."></textarea>
+          </div>
+          <button class="btn-primary full-width">Send My Request</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">☀ SOLARCORE</div>
+          <p>Powering homes, businesses, and communities with clean solar energy since 2012.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="#">Residential</a></li>
+            <li><a href="#">Commercial</a></li>
+            <li><a href="#">Utility Scale</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Monitoring Portal</a></li>
+            <li><a href="#">Warranty Claims</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 SolarCore Energy Inc. All rights reserved.</p>
+        <p>Privacy Policy · Terms of Service</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
